@@ -22,38 +22,40 @@ body {
     body header .navbar-toggler-icon:active {
       border: none;
       background-image: url("../images/icmenu.png"); }
-  body #one {
+  body .about {
     margin-top: 5rem; }
-    body #one a {
+    body .about a {
       font-family: 'Ubuntu';
       font-size: 23px;
       color: #fff; }
-    body #one a:hover, body #one a:focus {
+    body .about a:hover, body .about a:focus {
       color: #fff;
       outline: none; }
-    body #one a,
-    body #one a:active, body #one a:focus {
+    body .about a,
+    body .about a:active, body .about a:focus {
       text-decoration: none; }
-    body #one a:hover {
+    body .about a:hover {
       text-decoration: none; }
-    body #one .row {
+    body .about .row {
       padding-top: 5rem; }
-    body #one .title1 {
+    body .about .platforms {
+      max-width: 316px; }
+    body .about .title1 {
       font-size: 38px;
       font-family: 'Gotham Pro';
       font-weight: 500;
       line-height: 52px;
       margin-bottom: 2rem; }
-    body #one .description {
+    body .about .description {
       line-height: 32px;
       font-family: 'Myriad Pro';
       font-size: 20px;
       color: #4a4d4e; }
-    body #one span {
+    body .about span {
       font-family: 'Ubuntu';
       font-weight: 500;
       color: #4a4d4e; }
-    body #one .btn {
+    body .about .btn {
       font-family: 'Ubuntu';
       font-size: 23px;
       width: 457px;
@@ -63,17 +65,19 @@ body {
       -webkit-box-shadow: 0 8px 6px -6px #b12873;
       -moz-box-shadow: 0 8px 6px -6px #b12873;
       box-shadow: 0 8px 6px -6px #b12873; }
-    body #one .fa {
+    body .about .fa {
       color: #b12873; }
-  body #two {
+  body .work {
     background: #fff; }
-    body #two .title2 {
+    body .work .title2 {
       font-size: 38px;
       font-family: 'Gotham Pro';
       font-weight: 500;
       line-height: 52px;
       margin-bottom: 2rem; }
-    body #two .btn {
+    body .work .platforms-second {
+      max-width: 314px; }
+    body .work .btn {
       font-family: 'Ubuntu';
       font-size: 23px;
       width: 270px;
@@ -83,38 +87,38 @@ body {
       -webkit-box-shadow: 0 8px 6px -6px #b12873;
       -moz-box-shadow: 0 8px 6px -6px #b12873;
       box-shadow: 0 8px 6px -6px #b12873; }
-  body #three {
+  body .project {
     background: #01b5e6; }
-    body #three a {
+    body .project a {
       color: #f2f8b0;
       text-decoration: none;
       font-family: 'Ubuntu';
       font-size: 20px;
       border-bottom: 2px solid #f2f8b0; }
-    body #three a:hover, body #three a:focus {
+    body .project a:hover, body .project a:focus {
       color: #f2f8b0;
       outline: none; }
-    body #three a:hover {
+    body .project a:hover {
       text-decoration: none;
       border-bottom: 2px solid #fff; }
-    body #three .title3 {
+    body .project .title3 {
       color: #fff;
       font-size: 38px;
       font-family: 'Gotham Pro';
       font-weight: 500;
       line-height: 52px;
       margin-bottom: 2rem; }
-    body #three .description {
+    body .project .description {
       font-family: 'Myriad Pro';
       font-size: 20px;
       color: #fff;
       line-height: 32px; }
-    body #three .col-lg-5 {
+    body .project .col-lg-5 {
       max-width: 410px; }
-    body #three .col-lg-7 {
+    body .project .col-lg-7 {
       margin-left: auto;
       text-align: center; }
-    body #three .btn {
+    body .project .btn {
       font-family: 'Ubuntu';
       font-size: 23px;
       width: 324px;
@@ -141,138 +145,114 @@ body {
   height: 12px; }
 
 @media (max-width: 768px) {
-  body header {
-    font-size: 16px; }
-    body header .navbar-light .navbar-nav .nav-link {
-      border: 1px solid #fff; }
-
-  body header .navbar-light .navbar-nav .nav-link.active, body header .navbar-light .navbar-nav .nav-link.show, body header .navbar-light .navbar-nav .show > .nav-link {
-    border: 1px solid #4a4d4e;
-    max-width: 220px; }
-
-  body header .navbar-light .navbar-nav .nav-link {
-    padding-left: .5rem; }
-
-  .navbar-collapse {
-    padding-top: .5rem; }
-
-  .navbar-brand {
-    margin: 0 auto;
-    padding-right: 30px; }
-
-  .description {
-    display: none; }
-
-  .col-lg-2 {
-    display: none; }
-
-  body #one .img1 {
+  body .about .img1 {
     max-width: 281px;
     max-height: 600px; }
-  body #one .row {
+  body .about .row {
     padding-top: 10rem; }
-  body #one .col-lg-6 {
-    text-align: center; }
-  body #one .title1 {
+  body .about .title1 {
     position: absolute;
     transform: translateY(-510%);
     font-size: 28px; }
-  body #one .btn {
+  body .about .btn {
     white-space: normal !important;
     word-wrap: break-word;
     width: 100%;
     font-size: 20px; }
-
-  body #two .title2 {
+  body .work .title2 {
     text-align: center; }
-  body #two .bg2 {
+  body .work .bg2 {
     max-width: 100%; }
-  body #two .img2 {
+  body .work .img2 {
     max-width: 132px;
     max-height: 276px; }
-
-  body #three a {
+  body .project a {
     display: none; }
-  body #three .col-lg-5 {
+  body .project .title3 {
+    font-size: 36px; }
+  body .project .col-lg-5 {
     max-width: 100%;
     text-align: center; }
-  body #three .img3 {
+  body .project .img3 {
+    max-width: 100%; }
+  body .project .btn {
     max-width: 100%; } }
 @media (max-width: 992px) {
-  body nav .navbar-collapse {
-    border: 0;
-    position: absolute;
-    top: 65px;
-    left: 0;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    width: 500px;
-    background: #fff;
-    -webkit-box-shadow: 4px 0px 5px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 4px 0px 5px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 4px 0px 5px 0px rgba(0, 0, 0, 0.1); }
-  body nav .navbar-collapse.collapsing {
-    height: auto;
-    -webkit-transition: left 0.3s ease;
-    -o-transition: left 0.3s ease;
-    -moz-transition: left 0.3s ease;
-    transition: left 0.3s ease;
-    left: -100%; }
-  body nav .navbar-collapse.show {
-    left: 0;
-    -webkit-transition: left 0.3s ease-in;
-    -o-transition: left 0.3s ease-in;
-    -moz-transition: left 0.3s ease-in;
-    transition: left 0.3s ease-in; }
-
+  body .description {
+    display: none; }
   body header {
     font-size: 16px; }
     body header .navbar-light .navbar-nav .nav-link {
-      border: 1px solid #fff; }
-
-  body header .navbar-light .navbar-nav .nav-link.active, body header .navbar-light .navbar-nav .nav-link.show, body header .navbar-light .navbar-nav .show > .nav-link {
-    border: 1px solid #4a4d4e;
-    width: 220px; }
-
-  .navbar-collapse {
-    padding-top: .5rem; }
-
-  .navbar-brand {
-    margin: 0 auto; }
-
-  body header .navbar-light .navbar-nav .nav-link {
-    padding-left: .5rem; }
-
-  .description {
+      border: 1px solid #fff;
+      padding-left: .5rem; }
+    body header .navbar-light .navbar-nav .nav-link.active {
+      border: 1px solid #4a4d4e;
+      max-width: 220px; }
+    body header .navbar-light .navbar-nav .show > .nav-link {
+      border: 1px solid #4a4d4e;
+      max-width: 220px; }
+    body header .navbar-brand {
+      margin: 0 auto;
+      padding-right: 30px; }
+    body header nav .navbar-collapse {
+      border: 0;
+      position: absolute;
+      top: 65px;
+      left: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      padding-top: .5rem;
+      width: 500px;
+      background: #fff;
+      -webkit-box-shadow: 4px 0px 5px 0px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 4px 0px 5px 0px rgba(0, 0, 0, 0.1);
+      box-shadow: 4px 0px 5px 0px rgba(0, 0, 0, 0.1); }
+    body header nav .navbar-collapse.collapsing {
+      height: auto;
+      -webkit-transition: left 0.3s ease;
+      -o-transition: left 0.3s ease;
+      -moz-transition: left 0.3s ease;
+      transition: left 0.3s ease;
+      left: -100%; }
+    body header nav .navbar-collapse.show {
+      left: 0;
+      -webkit-transition: left 0.3s ease-in;
+      -o-transition: left 0.3s ease-in;
+      -moz-transition: left 0.3s ease-in;
+      transition: left 0.3s ease-in; }
+  body .about .col-lg-2 {
     display: none; }
-
-  .col-lg-2 {
-    display: none; }
-
-  body #one .col-lg-6 {
+  body .about .col-lg-6 {
     text-align: center; }
-
-  body #three a {
+  body .about .platforms {
+    max-width: 100%; }
+  body .work .platforms-second {
+    max-width: 100%; }
+  body .project a {
     display: none; }
-  body #three .col-lg-5 {
+  body .project .col-lg-5 {
     max-width: 100%;
     text-align: center; }
-  body #three .img3 {
+  body .project .img3 {
     max-width: 100%; } }
 @media (min-width: 993px) and (max-width: 1200px) {
   body header {
     font-size: 12px; } }
 @media (min-width: 540px) and (max-width: 770px) {
-  body #one .row {
+  body .about .row {
     padding-top: 10rem; }
-  body #one .col-lg-6 {
+  body .about .col-lg-6 {
     text-align: center; }
-  body #one .title1 {
+  body .about .title1 {
     position: absolute;
     transform: translateY(-750%);
     font-size: 28px; }
-  body #one .btn {
+  body .about .btn {
     font-size: 20px; } }
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1920px;
+    width: 80%; } }
 
 /*# sourceMappingURL=styles.css.map */
