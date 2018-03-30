@@ -98,7 +98,7 @@ body {
 			color: #b12873;
 		}
 	}
-	.work {
+	.working {
 		background: #fff;
 		.title2 {
 			font-size: 38px;
@@ -107,14 +107,76 @@ body {
 			line-height: 52px;
 			margin-bottom: 2rem;
 		}
+		.working_wrapper {
+		    position: relative;
+		}
+		.bank {
+		    left: 0;
+		    position: absolute;
+		    width: 36.62%;
+		    top: 37.8%;
+		}
+		.art {
+		    left: 21%;
+		    position: absolute;
+		    width: 16.495659%;
+		    top: 0%;
+		}
+		.shop {
+		    left: 31%;
+		    position: absolute;
+		    width: 28.1767956%;
+		    top: 3.5%;
+		}
+		.parking {
+		    position: absolute;
+		    width: 50.3551697%;
+		    left: 18%;
+		    top: 55%;
+		}
+		.coffe {
+		    position: absolute;
+		    width: 52.8808208%;
+		    left: 47.1%;
+		    top: 32.2%;
+		}
+		.bus-stop {
+		    position: absolute;
+		    width: 13.6543015%;
+		    left: 73.5%;
+		    top: 58.0%;
+		}
+		.working_obj {
+		    opacity: 0;
+		}
+		.working_obj:hover {
+		    cursor: pointer;
+		    opacity: 1;
+		}
+		.active-obj {
+		    opacity: 1;
+		}
+		.working_phone {
+			left: 0;
+			top: 0;
+			position: absolute;
+			opacity: 0;
+			height: 100%;
+			width: 100%;
+		}
+		.active-phone {
+			position: relative;
+			opacity: 1;
+		}
 		.platforms-second {
 			max-width: 314px;
 		}
 		.btn {
 			font-family: 'Ubuntu';
 			font-size: 23px;
-			width: 270px;
-			height: 71px;
+			max-width: 330px;
+			width: 100%;
+			min-height: 73px;
 			background: $pink_button;
 			border:0;
 			-webkit-box-shadow: 0 8px 6px -6px #b12873;
@@ -217,16 +279,9 @@ body {
 				font-size: 20px;
 			}
 		}
-		.work {
+		.working {
 			.title2 {
 				text-align: center;
-			}
-			.bg2{
-				max-width: 100%;
-			}
-			.img2 {
-				max-width:132px;
-				max-height: 276px;
 			}
 		}
 		.project {
@@ -319,7 +374,7 @@ body {
 				max-width: 100%;
 			}
 		}
-		.work {
+		.working {
 			.platforms-second {
 				max-width: 100%;
 			}
